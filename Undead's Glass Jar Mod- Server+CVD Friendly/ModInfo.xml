@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <Name value="GlassJarMod"/>
+	<DisplayName value="Undead's GlassJarMod Server+CVD Friendly"/>
+    <Description value="Another Glass Jar mod that allows players to use an empty jar. Includes nearly accurate gameplay mechanics, I hope you enjoy."/>
+    <Author value="UndeadxReality"/>
+    <Version value="1.0"/>
+	<Website value=""/>
+</xml>
