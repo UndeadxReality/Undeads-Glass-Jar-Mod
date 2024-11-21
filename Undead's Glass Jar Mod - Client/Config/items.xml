@@ -1,0 +1,50 @@
+<UndeadxReality>
+	<append xpath="/items">
+		<item name="drinkJarEmpty">
+			<property name="HoldType" value="3"/>
+			<property name="Meshfile" value="@:Other/Items/Food/emptyJarPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mglass"/>
+			<property name="CustomIcon" value="drinkJarEmpty"/>
+			<property name="Stacknumber" value="125"/>
+			<property name="Weight" value="10"/>
+			<property name="EconomicValue" value="20"/>
+			<property name="CraftingIngredientTime" value="9"/>
+			<property name="Class" value="ItemClassWaterContainer"/>
+			<property name="WaterCapacity" value="1"/>
+			<property class="Action1">
+				<property name="Class" value="CollectWater"/>
+				<property name="Delay" value=".35"/>
+				<property name="Change_item_to" value="drinkJarRiverWater"/>
+				<property name="Do_block_action" value="deplete1"/>
+				<property name="Focused_blockname_1" value="water"/>
+				<property name="Focused_blockname_2" value="waterMoving"/>
+				<property name="Focused_blockname_3" value="waterStaticBucket"/>
+				<property name="Focused_blockname_4" value="waterMovingBucket"/>
+				<property name="Focused_blockname_5" value="terrWaterPOI"/>
+				<property name="Sound_start" value="bucketfill_water"/>
+			</property>
+			<property name="Group" value="Resources"/>
+			<property name="SoundPickup" value="jars_grab"/>
+			<property name="SoundPlace" value="jars_place"/>
+		</item>
+	</append>
+	<append xpath="/items/item[@name='drinkJarBeer'
+		or @name='drinkJarBlackStrapCoffee'
+		or @name='drinkJarBoiledWater'
+		or @name='drinkJarCoffee'
+		or @name='drinkJarGoldenRodTea'
+		or @name='drinkJarGrandpasAwesomeSauce'
+		or @name='drinkJarGrandpasForgettingElixir'
+		or @name='drinkJarGrandpasLearningElixir'
+		or @name='drinkJarGrandpasMoonshine'
+		or @name='drinkJarPureMineralWater'
+		or @name='drinkJarRedTea'
+		or @name='drinkJarRiverWater'
+		or @name='drinkJarYuccaJuice'
+		or @name='drinkYuccaJuiceSmoothie'
+		or @name='foodHoney']/property[@class='Action0']">
+		<property name="Create_item" value="drinkJarEmpty"/>
+	</append>
+</UndeadxReality>
+
