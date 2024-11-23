@@ -6,7 +6,7 @@
 			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 			<property name="Material" value="Mglass"/>
 			<property name="CustomIcon" value="drinkJarRiverWater"/>
-			<property name="CustomIconTint" value="FF69B4"/> <!-- Change the value in quotations if you want to change the color -->
+			<property name="CustomIconTint" value="D6AE40"/> <!-- Change the value in quotations if you want to change the color -->
 			<property name="Stacknumber" value="125"/>
 			<property name="Weight" value="10"/>
 			<property name="EconomicValue" value="20"/>
